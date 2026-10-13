@@ -1,0 +1,10 @@
+{
+  "name": "NatureHeal",
+  "description": "Voice-first outdoor activity and digital detox companion that encourages you to step outside, take mindful walks, and put your phone down.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
