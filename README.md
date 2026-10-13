@@ -113,7 +113,7 @@ This repository includes a `render.yaml` Blueprint file for automatic configurat
 5. Render will automatically detect `render.yaml` and configure:
    - **Service Name**: `natureheal`
    - **Environment**: `Node`
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm install --legacy-peer-deps && npm run build`
    - **Start Command**: `npm start`
    - **Plan**: `Free`
 6. Under **Environment Variables**, enter your secret **`GEMINI_API_KEY`**.
@@ -137,7 +137,7 @@ If you prefer to configure the service manually on Render without Blueprints:
 | **Branch** | `main` |
 | **Root Directory** | *(Leave blank)* |
 | **Runtime** | `Node` |
-| **Build Command** | `npm install && npm run build` |
+| **Build Command** | `npm install --legacy-peer-deps && npm run build` |
 | **Start Command** | `npm start` |
 | **Instance Type** | `Free` (or `Starter`) |
 
